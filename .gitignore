@@ -1,0 +1,31 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+/bin/
+
+# Build output
+dist/
+build/
+
+# Test artifacts
+coverage.out
+coverage.html
+
+# Go workspace (managed at root level)
+go.work
+go.work.sum
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Runtime data
+data/
+*.log
